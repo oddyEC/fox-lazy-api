@@ -1,3 +1,18 @@
 @import 'tailwindcss/dist/base.css';
 @import 'tailwindcss/dist/components.css';
 @import 'tailwindcss/dist/utilities.css';
+
+.button,
+.buttonClear{
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.button{
+  background-color: orange;
+}
+
+.buttonClear{
+  background-color: rgb(255, 81, 0);
+}
